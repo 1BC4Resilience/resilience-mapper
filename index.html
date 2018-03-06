@@ -2,6 +2,7 @@
   <head>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
+      /* 
       google.charts.load('current', {
         'packages':['geochart'],
         // Note: you will need to get a mapsApiKey for your project.
@@ -27,6 +28,20 @@
 
         chart.draw(data, options);
       }
+      */
+      
+      function drawChart() {
+        var query = new google.visualization.Query(https://docs.google.com/spreadsheets/d/1iSLETQWyMa80y50VmRViXpfz4VF0NNGSLGcshaPvJ9A/edit?usp=drive_web&ouid=115145131736098930554);
+        query.send(handleQueryResponse);
+      }
+
+      function handleQueryResponse(response) {
+        var data = response.getDataTable();
+        var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
+        chart.draw(data, null);
+      }
+      
+      
     </script>
   </head>
   <body>
