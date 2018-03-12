@@ -1,0 +1,222 @@
+/**
+* Resilince Mapper
+* @author Ian O'Donnell
+* @version 0.1
+*/
+
+#map_view, #commitments_map_view {
+    width: 60%;
+    display:inline-block;
+}
+
+#summary_view, #commitments_summary_view {
+    display:inline-block;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    padding: 15px;
+    margin-left: 35px;
+}
+
+#project_details_container {
+    display: flex;
+}
+
+#chart_view {
+    width: 65%;
+    margin-left: 10px;
+    //display:inline-block;
+    //float: left;
+}
+
+#project_detail_view {
+    //width: 25%;
+    //display:inline-block;
+    //float: left;
+}
+
+.projects-heading {
+    padding-left: 10px;
+    font-size: 30px;
+    color: #1b4959;
+    font-weight: bold;
+    border-bottom-style: dotted;
+}
+
+.project-title {
+    padding-left: 20px;
+    font-size: 24px;
+    padding-top: 20px;
+    color: #1b4959;
+    display: block;
+}
+
+.line_container {
+    display: flex;
+}
+
+.project-detail-header {
+    padding-left: 30px;
+    font-size: 16px;
+    padding-top: 10px;
+    color: #777777;
+    font-weight: bold;
+}
+
+.project-detail-content {
+    padding-left: 10px;
+    font-size: 15px;
+    padding-top: 10px;
+    color: #777777;
+}
+
+.advice {
+    width: 75%;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    background-color: yellow; 
+}
+
+.summary-title {
+    font-size: 30px;
+}
+
+.summary-heading {
+    font-size: 28px;
+    padding-top: 18px;
+}
+
+.summary-detail {
+    padding-top: 10px;
+}
+
+#commitment_detail_container {
+    display: flex;
+}
+
+#commitment_detail_view {
+    //width: 25%;
+    //display:inline-block;
+    //float: left;
+}
+
+#commitment_photo_view {
+    width: 50%;
+    //display:inline-block;
+    //float: left;
+}
+
+.commitment_photo {
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 8px;
+}
+
+@media only screen and (max-width: 800px) {
+    #commitment_detail_container {
+        display: inline;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #map_view {
+        width: 100%;
+    }
+
+    #summary_view, #commitments_summary_view {
+        margin-left: 0px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        display: flex;
+        padding: 6px;
+        border-width: 1px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .summary-title {
+        font-size: 20px;
+    }
+
+    .summary-heading {
+        font-size: 16px;
+        padding-top: 3px;
+        padding-left: 10px;
+    }
+
+    .summary-detail {
+        padding-top: 3px;
+        padding-left: 4px;
+    }
+
+
+    .projects-heading {
+        font-size: 16px;
+        margin-top: 12px;
+    }
+
+    #chart_view {
+        width: 94%;
+        margin-left: 6px;
+    }
+
+
+    #project_details_container {
+        display: inline;
+    }
+}
+
+
+/* Style the tab */
+.tab {
+    position: absolute;
+    right: 0px;
+    display: inline;
+    //float: right;
+    //border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 30%;
+    height: 100px;
+    z-index: 5;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 12px 8px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    position: relative;
+    top: 4px;
+    display: none;
+    //float: left;
+    padding: 0px 12px;
+    //border: 1px solid #ccc;
+    width: 100%;
+    border-left: none;
+    //height: 300px;
+}
+
