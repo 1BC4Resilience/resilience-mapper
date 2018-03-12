@@ -10,19 +10,17 @@
 </head>
 
 <body>
-<script type='text/javascript' src='https://www.google.com/jsapi'></script>
-
-<script type='text/javascript'>google.load('visualization', '1', {'packages': ['geochart','corechart', 'table']});
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">google.charts.load('current', {packages: ['geochart','corechart','table']});
+	
 // Source: https://gist.github.com/patchypt/60cd3c0c723c2a3cf2921a276691bfd2
 // Related source: https://gist.github.com/patchypt/baf4e4a2cf68b8327f93d02a52deb765
-
-//<script type='text/javascript'>google.load('visualization', '1', {'packages': ['geochart']});
 
 var people_reached = 0;
 var total_projects = 0;
 google.visualization.mapsApiKey = '57e92078e0fbd5006253e301';	
 
-google.setOnLoadCallback(drawVisualization);
+google.charts.setOnLoadCallback(drawVisualization);
 
 function drawVisualization() 
 { 
