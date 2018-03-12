@@ -184,7 +184,7 @@
         position: static !important;
         display: inline;
         border: 0.5px solid #ccc !important;
-        float: left;
+        //float: left;
         padding: 4px 8px !important;
         text-align: left;
     }
