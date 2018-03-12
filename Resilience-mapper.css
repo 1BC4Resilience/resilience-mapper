@@ -196,6 +196,7 @@
     .tabcontent {
         position: static !important;
         float: left;
+        padding: 0px 0px !important;
     }
 }
 
