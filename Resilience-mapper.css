@@ -169,6 +169,36 @@
     }
 }
 
+@media only screen and (max-width: 400px) {
+
+    .tab {
+        position: static !important;
+        //right: 0px;
+        display: inline;
+        //float: right;
+        overflow: hidden;
+        //border: 1px solid #ccc !important;
+        background-color: #f1f1f1;
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .tab button {
+        position: static !important;
+        display: inline;
+        width: 30% !important;
+        border: 0.5px solid #ccc !important;
+        float: left;
+        padding: 4px 8px !important;
+        text-align: left;
+    }
+
+    .tabcontent {
+        position: static !important;
+        float: left;
+    }
+}
+
 
 /* Style the tab */
 .tab {
