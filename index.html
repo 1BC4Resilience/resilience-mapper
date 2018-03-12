@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="Resilience-mapper.css">
 
-  <title>Geochart color example</title>
+  <title>Resilience Mapper</title>
 </head>
 
 <body>
@@ -343,7 +343,7 @@ project_info_list = '<div class="project-title">' + data.getValue(projectRow,3) 
 document.getElementById('project_detail_view').innerHTML = project_info_list;
 }
 geochart.draw(view, options);
-document.getElementById('projects_view').innerHTML = '<div class="advice">Click on a country in the map above to see details on projects in each country.</div>';
+document.getElementById('projects_view').innerHTML = '<div class="advice">Click on a country in the map above or type it in the search box to see details on projects in each country.</div>';
 commitments_geochart.draw(commitments_view, commitments_geochart_options);
 document.getElementById('commitment_detail_view').innerHTML = '<div class="advice">Click on a circle in the map above to see details on each of the commitments.</div>';
 //tableChart.draw(projects, null);
