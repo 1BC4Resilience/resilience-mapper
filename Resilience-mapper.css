@@ -122,7 +122,7 @@
 }
 
 @media only screen and (max-width: 700px) {
-    #map_view {
+    #map_view, #commitments_map_view {
         width: 100%;
     }
 
