@@ -198,6 +198,14 @@
         float: left;
         padding: 0px 0px !important;
     }
+    
+    .project-title {
+        padding-left: 3px;
+    }
+
+    .project-detail-header {
+        padding-left: 10px;
+    }
 }
 
 
