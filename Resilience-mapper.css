@@ -4,8 +4,13 @@
 * @version 0.1
 */
 
-#map_view, #commitments_map_view {
+.map_container {
     width: 60%;
+    display:inline-block;
+}
+
+#map_view, #commitments_map_view {
+    width: 100%;
     display:inline-block;
 }
 
