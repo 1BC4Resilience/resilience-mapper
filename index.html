@@ -509,8 +509,9 @@ document.addEventListener("click", function (e) {
 <!-- Tab content -->
 <div id="Existing_contributions" class="tabcontent">
 <h3>Existing resilience contributions</h3>
+<div class='map_container'>
 <div id='map_view'></div>
-<div id='summary_view'></div>
+
 <!-- Country selection form for autocomplete -->
 <form autocomplete="off" action="javascript:void(0);" onClick="generateCountryDetails(myCountry.value)">
   <div class="autocomplete" style="width:300px;">
@@ -518,6 +519,8 @@ document.addEventListener("click", function (e) {
   </div>
 <!--   <input type="submit">  -->
 </form>
+</div>
+<div id='summary_view'></div>
 <div id='projects_view'></div>
 <div id='project_details_container'>
 <div id='chart_view'></div>
@@ -528,7 +531,9 @@ document.addEventListener("click", function (e) {
 <div id="1BC_commitments" class="tabcontent">
   <h3>1BC commitments</h3>
   <p>Current commitments toward 1BC global goal.</p> 
+<div class='map_container'>
 <div id='commitments_map_view'></div>
+</div>
 <div id='commitments_summary_view'></div>
 <div id='commitment_detail_container'>
 <div id='commitment_detail_view'></div>
