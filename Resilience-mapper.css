@@ -131,6 +131,7 @@
         margin-top: 4px;
         margin-bottom: 4px;
         display: flex;
+        width: 90%;
         padding: 6px;
         border-width: 1px;
         align-items: center;
@@ -138,7 +139,7 @@
     }
 
     .summary-title {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .summary-heading {
@@ -173,18 +174,24 @@
 
     .tab {
         position: static !important;
-        display: inline;
+        //right: 0px;
+        display: flex !important;
+        //float: right;
         overflow: hidden;
+        //border: 1px solid #ccc !important;
         background-color: #f1f1f1;
         width: 79% !important;
         height: auto !important;
+	justify-content: center;
     }
 
     .tab button {
         position: static !important;
         display: inline;
+        //width: 26% !important;
         border: 0.5px solid #ccc !important;
-        float: none !important;
+        //background-color: #f1f1f1 !important;
+        float: left;
         padding: 4px 8px !important;
         text-align: left;
     }
@@ -194,7 +201,7 @@
         float: left;
         padding: 0px 0px !important;
     }
-    
+
     .project-title {
         padding-left: 3px;
     }
@@ -202,12 +209,12 @@
     .project-detail-header {
         padding-left: 10px;
     }
-    
+
     .advice {
         width: 100%;
     }
-}
 
+}
 
 /* Style the tab */
 .tab {
@@ -258,4 +265,3 @@
     border-left: none;
     //height: 300px;
 }
-
