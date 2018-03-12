@@ -173,20 +173,16 @@
 
     .tab {
         position: static !important;
-        //right: 0px;
         display: inline;
-        //float: right;
         overflow: hidden;
-        //border: 1px solid #ccc !important;
         background-color: #f1f1f1;
-        width: 100% !important;
+        width: 79% !important;
         height: auto !important;
     }
 
     .tab button {
         position: static !important;
         display: inline;
-        width: 26% !important;
         border: 0.5px solid #ccc !important;
         float: left;
         padding: 4px 8px !important;
@@ -205,6 +201,10 @@
 
     .project-detail-header {
         padding-left: 10px;
+    }
+    
+    .advice {
+        width: 100%;
     }
 }
 
