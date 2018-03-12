@@ -241,6 +241,7 @@ google.visualization.events.addListener(geochart, 'select', function () {
 		var country_project_total=0;
 
 		var country_name = country_summary_data.getValue(country_selection[0].row, 0);
+		alert(country_name);
 
 		var projects = data.getFilteredRows([{column: 2, value: country_name}]);
 
