@@ -340,7 +340,8 @@ project_info_list = '<div class="project-title">' + data.getValue(projectRow,3) 
 		'<div class="line_container"><div class="project-detail-header">Org:</div><div class="project-detail-content"><a href="' + data.getValue(projectRow,6) +'" target="_blank">' + data.getValue(projectRow,4) + '</a></div></div>' +
 		'<div class="line_container"><div class="project-detail-header">Description:</div><div class="project-detail-content">' + data.getValue(projectRow,7) + '</div></div>' +
 		'<div class="line_container"><div class="project-detail-header">Contact:</div><div class="project-detail-content">' + data.getValue(projectRow,5) + '</div></div>' +
-		'<div class="line_container"><div class="project-detail-header">Source:</div><div class="project-detail-content">' + data.getValue(projectRow,9) + '</div></div>';
+		'<div class="line_container"><div class="project-detail-header">Source:</div><div class="project-detail-content">' + data.getValue(projectRow,9) + '</div></div>' +
+		'<div class="project-detail-header">Methodology:</div><div class="project-detail-content">' + data.getValue(projects[x],11) + '</div>';
 document.getElementById('project_detail_view').innerHTML = project_info_list;
 }
 geochart.draw(view, options);
