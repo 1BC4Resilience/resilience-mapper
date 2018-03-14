@@ -79,6 +79,10 @@
     margin: 0px 0px 8px 0px;
 }
 
+#methodology_note {
+    font-style: italic;
+}	
+
 .advice {
     width: 75%;
     margin-top: 30px;
