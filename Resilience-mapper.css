@@ -41,9 +41,12 @@ h3 {
     margin-left: 35px;
 }
 
-#submit_new_project {
+#new_project {
     display:inline-block;
     margin-left: 15px;
+}
+
+#submit_new_project {
     background-color: #ff0000;
 }
 
