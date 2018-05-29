@@ -41,6 +41,11 @@ h3 {
     margin-left: 35px;
 }
 
+#submit_new_project {
+    display:inline-block;
+    margin-left: 15px;
+}
+
 #project_details_container {
     display: flex;
 }
