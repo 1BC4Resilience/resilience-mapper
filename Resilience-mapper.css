@@ -47,7 +47,8 @@ h3 {
 }
 
 #submit_new_project {
-    background-color: #ff0000;
+    background-color: #1b4959;
+    color: #ffffff;
 }
 
 #project_details_container {
