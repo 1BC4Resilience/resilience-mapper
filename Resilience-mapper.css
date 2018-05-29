@@ -52,6 +52,7 @@ h3 {
     border: none;
     text-align: center;
     margin-left: 40px;
+    padding: 6px;
 }
 
 #project_details_container {
@@ -175,6 +176,10 @@ h3 {
     #commitment_detail_container {
         display: inline;
     }
+	
+    #submit_new_project {
+        margin: auto;
+}
 }
 
 @media only screen and (max-width: 700px) {
