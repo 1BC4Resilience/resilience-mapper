@@ -41,12 +41,12 @@ h3 {
     margin-left: 35px;
 }
 
-#new_project {
+#new_project, #new_commitment {
     display: inline-block;
     margin-left: 40px;
 }
 
-#submit_new_project {
+#submit_new_project, #submit_new_commitment {
     background-color: #1b4959;
     color: #ffffff;
     border: none;
@@ -177,7 +177,7 @@ h3 {
         display: inline;
     }
 	
-    #submit_new_project {
+    #submit_new_project, #submit_new_commitment {
         margin: auto;
 }
 }
