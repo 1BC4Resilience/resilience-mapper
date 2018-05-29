@@ -43,7 +43,7 @@ h3 {
 
 #new_project, #new_commitment {
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 #submit_new_project, #submit_new_commitment {
@@ -51,7 +51,7 @@ h3 {
     color: #ffffff;
     border: none;
     text-align: center;
-    margin-left: 40px;
+    margin-left: 20px;
     padding: 6px;
 }
 
