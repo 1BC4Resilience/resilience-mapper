@@ -24,7 +24,7 @@ h3 {
 
 .map_container {
     width: 60%;
-    display:inline-block;
+    display: inline-block;
 }
 
 #map_view, #commitments_map_view {
@@ -33,7 +33,7 @@ h3 {
 }
 
 #summary_view, #commitments_summary_view {
-    display:inline-block;
+    display: inline-block;
     text-align: center;
     border-style: solid;
     border-width: 2px;
@@ -42,8 +42,8 @@ h3 {
 }
 
 #new_project {
-    display:inline-block;
-    margin-left: 15px;
+    display: inline-block;
+    //margin-left: 15px;
 }
 
 #submit_new_project {
