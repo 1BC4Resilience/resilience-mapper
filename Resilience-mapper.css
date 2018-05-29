@@ -50,7 +50,10 @@ h3 {
 #submit_new_project {
     background-color: #1b4959;
     color: #ffffff;
+    border: none;
     text-align: center;
+    margin-left: 40px;
+    padding-left: 40px;
 }
 
 #project_details_container {
