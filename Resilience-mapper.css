@@ -92,6 +92,14 @@ h3 {
     display: flex;
 }
 
+@media \0screen\,screen\9 {
+    .ie678910 {
+        .line_container {
+    		display: inline;
+	}
+    }
+}
+
 .project-detail-header {
     padding-left: 30px;
     font-size: 16px;
