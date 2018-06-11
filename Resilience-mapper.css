@@ -95,7 +95,7 @@ h3 {
 @media \0screen\,screen\9 {
     .ie678910 {
         .line_container {
-    		display: inline;
+    		display: inline !important;
 	}
     }
 }
