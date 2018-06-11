@@ -113,7 +113,23 @@ h3 {
 
 #methodology_note {
     font-style: italic;
-}	
+}
+
+@media screen and (min-width:0\0) {
+    #project_details_container {
+        display: inline !important;
+    }
+    #chart_view {
+        float: left;
+    }
+    #project_detail_view {
+        width: 25%;
+        float: left;
+    }
+    .line_container {
+  	display: inline !important;
+    }
+}
 
 .advice {
     width: 75%;
